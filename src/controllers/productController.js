@@ -71,7 +71,7 @@ const getProduct = async (req, res) => {
       message: "Products retrieved successfully"
     });
   } catch (error) {
-    console.error(error);
+    // console.error(error);
     res.status(500).json({
       success: false,
       error: "Internal server error"
@@ -101,7 +101,7 @@ const getSingleProduct = async (req, res) => {
       message: `Product with ID ${productId} retrieved successfully`
     });
   } catch (error) {
-    console.error(error);
+    // console.error(error);
     res.status(500).json({
       success: false,
       error: "Internal server error"
