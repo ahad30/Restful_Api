@@ -14,7 +14,9 @@ const productValidation = [
   body('price')
     .trim()
     .notEmpty()
-    .withMessage('product price is required'),
+    .withMessage('product price is required')
+    .isNumeric()
+    .withMessage('product price must be a number'),
 
   body('category')
     .trim()
