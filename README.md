@@ -1,6 +1,6 @@
 ## Overview
 
- Product management REST API built with Node.js, Express, Prisma and  MongoDB. This application allows users to perform CRUD operations on products, including adding, retrieving, updating, and deleting product information.
+ Product management REST API built with Node.js, Express, Prisma and  MongoDB. It allows users to perform CRUD operations on products, including adding, retrieving, updating, and deleting product information.
 
 ## Features
 
@@ -31,6 +31,8 @@ cd Restful_Api
 npm install
 ```
 
+```
+Base Url: http://localhost:5000/api/v1
 ```
 Note:If prisma schema didn't auto generate on "npm i", use this command "npx prisma generate" after "npm i"
 ```
