@@ -4,7 +4,7 @@
 
 ## Features
 
-- ✅ Product management (CRUD operations)
+- Product management (CRUD operations)
 
 
 ## Tech Stack
