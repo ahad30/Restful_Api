@@ -11,6 +11,11 @@ const productValidation = [
     .notEmpty()
     .withMessage('product subtitle is required'),
 
+  body('description')
+    .trim()
+    .notEmpty()
+    .withMessage('product description is required'),
+
   body('price')
     .trim()
     .notEmpty()
