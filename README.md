@@ -33,7 +33,6 @@ npm install
 
 ```
 Base Url: http://localhost:5000/api/v1
-```
 Note:If prisma schema didn't auto generate on "npm i", use this command "npx prisma generate" after "npm i"
 ```
 
